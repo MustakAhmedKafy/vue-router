@@ -3,7 +3,7 @@
 
 <template>
   <div>
-        <h1 class="container display-4">This is Blog pgae</h1>
+        <h1 class="container display-4">This is Blog page</h1>
   </div>
 </template>
 
