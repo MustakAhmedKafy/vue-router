@@ -1,9 +1,27 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div>
-        <h1 class="container display-4">This is Blog page</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <router-view name="leftSidebar"></router-view>
+        </div>
+        <div class="col-md-8">
+          <div class="card" style="width: 18rem">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
