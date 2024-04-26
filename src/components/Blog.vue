@@ -4,9 +4,7 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <router-view name="leftSidebar"></router-view>
-        </div>
+        <div class="col-md-4"></div>
         <div class="col-md-8">
           <div class="card" style="width: 18rem">
             <img src="..." class="card-img-top" alt="..." />
