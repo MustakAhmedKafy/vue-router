@@ -6,7 +6,15 @@ import Navbar from "./components/Navbar.vue";
   <div>
     <Navbar />
     <router-view></router-view>
-    <router-view name="leftSidebar"></router-view>
+    <div class="dynamic-routing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <router-view name="leftSidebar"></router-view>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
